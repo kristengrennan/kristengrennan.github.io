@@ -1,0 +1,153 @@
+
+
+/*nav bar*/
+nav {
+    background: grey;
+    font-size:15px;
+    display: flex;
+    justify-content:space-around;
+    color:white;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 10%;
+    
+}
+
+/*properties that should be copied across all pages*/
+body {
+    padding: 3% 5%;
+    background-color:#D8DFE3;
+font-family: 'Libre Baskerville', serif;
+}
+
+img {
+  width: 100%;
+}
+p{
+    font-size:18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+  text-align:center;
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+
+/*properties specific to this page*/
+.kgheader {
+  color:white;
+    background-color: #4F91CD;
+   margin:0px;
+    padding:5%;
+
+}
+
+.kgglobalgoals, .kgwhynyc, .kgreport {
+  display:flex;
+  justify-content:space-around;
+  align-items:flex-start;
+}
+.kgglobalgoalsquote, .kgwhynycquote, .kgreport {
+border: 3px solid black;
+  padding: 2%;
+  margin: 0;
+}
+
+.whataretheglobalgoals {
+    background: #CD4758;
+        padding: 2%;
+
+}
+.kgglobalgoalstext, .kgwhynyctext, .kgreporttext{
+    margin-right:10px;
+}
+.whynycsection {
+    background: #D3A029;
+            padding: 2%;
+    margin-top: 20px;
+}
+.whynycheader, .reportheader {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.whynycheader h3, .reportheader h3 {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    right: 16px;
+    color:black;
+    padding: 5%;
+/*this background color is what creates the opaque background behind text so that you can read it when it's placed on top of an image with colors that make it difficult to read text*/    
+    background: rgba(128,128,128, .4);
+    margin: 0;
+}
+
+.kgglobalgoalsimg {
+    background: white;
+}
+
+.reportsection{
+    background: #183668;
+    color:white;
+    padding: 2%;
+        margin-top: 20px;
+}
+
+.reportsection a {
+  color:white;
+}
+
+.kgreportquote{
+  align-content: center;
+}
+
+.kgreportcover {
+  display:flex;
+}
+
+.icon{
+    flex: 1;
+  width: 20%;
+}
+
+.globalgoalsicons {
+    display: flex;
+    align-items: center;
+}
+
+/*responsive page properties: copy & paste the below into all pages, but replace with appropriate flexed section from you page*/
+@media screen and (max-width: 600px) {
+  .kgglobalgoals, .kgwhynyc, .kgreport, .globalgoalsicons  {
+  display:block;
+      font-size: 12px;
+      }
+    .icon {
+        display:block;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        text-align: center;
+    }
+}

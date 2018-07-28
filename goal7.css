@@ -1,0 +1,163 @@
+
+/*nav bar*/
+nav {
+    background: grey;
+    font-size:15px;
+    display: flex;
+    justify-content:space-around;
+    color:white;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 10%;
+    
+}
+
+/*properties that should be copied across all pages*/
+body {
+    padding: 3% 5%;
+    background-color:#D8DFE3;
+font-family: 'Libre Baskerville', serif;
+}
+
+img {
+  width: 100%;
+}
+p{
+    font-size:18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+  text-align:center;
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+     
+body {
+    font-family: sans-serif;
+    text-align: center;    
+}
+
+div {
+    padding: 5px;
+    
+}
+
+h2 {
+    background-color: orange;
+}
+
+
+
+.first { 
+    background-image: url("/images/landfill2.jpg"); 
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.sdg7 {
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+    margin-top:30%;
+    background: rgba(128,128,128, .4);
+}
+
+.second {
+   width: 80%;
+   margin: auto;
+}
+
+
+.icons {    
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+}
+
+.icons img {
+    padding-right:7%;
+}
+
+.programs {  
+    
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.box, .secondbox {
+    flex: 1;
+    padding-bottom: 20%;
+}
+
+.goals { 
+    background-image: url("/images/central.jpg"); 
+    width: 100%;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.park {
+    background-image: url(images/central.jpg);
+        width:100%;
+    width: 100%;
+    height: 800px;
+        background-repeat: no-repeat;
+    background-size: cover;    
+    color: white;
+
+}
+
+.conclusion {
+            margin-top:30%;
+    background: rgba(128,128,128, .4);
+}
+
+*/.park {
+  
+    font-size:20px;
+    display: flex;
+
+}
+.park img {
+    width: 30%;
+      justify-content:space-around;
+  align-items:flex-start;
+}*/
+
+li, ul {
+    align-content: left;
+}
+
+@media screen and (max-width: 600px) {
+  .sdg7, .second, .icons, .programs, .goals, .park, .conclusion  {
+  display:block;
+      font-size: 12px;
+      }
+

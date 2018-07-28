@@ -1,0 +1,43 @@
+.naztop { 
+    background-image: url(nazpicture/naztop.jpg); background-size: 100%; padding: 20%;
+    color: azure;}
+
+.naztop ul { padding-left: 50%; list-style: none; color: chartreuse; font-size: 18;
+margin-top: 0%;}
+
+.naztop h1 { padding-bottom: 20%; text-align: center; font-family: serif; color: green;}
+
+.naztop p { font-size: 20;}
+
+img { width: 100%;}
+
+
+
+
+
+
+
+
+
+.onenyctable img {height: 500px; width: auto;}
+
+
+
+
+
+
+
+
+.tapwater{display: flex; 
+border-image-width: 20%; }
+
+.onenyctable {display: flex;
+    align-items: center;
+margin-bottom: 300px;
+}
+table {font-family: sans-serif;
+color: blue; table-layout: inherit;
+width: 100%; text-align: center; }
+th, td {height: 50px;
+padding: 15px; }
+

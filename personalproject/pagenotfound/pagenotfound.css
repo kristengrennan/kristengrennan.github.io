@@ -1,0 +1,58 @@
+body {
+
+
+font-family: 'Slabo 27px', serif;
+  text-align: center;
+    font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+/*background image*/
+body {
+    background-image: url(pagenotfound.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/*navbar*/
+nav {
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+    margin-bottom: 20px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+
+    
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*footer contact bar*/
+.contact {
+  color:white;
+  background: #596475;
+        bottom:0;
+    position: fixed;
+    width:100%;
+  }
+.contact a:link {
+  color:white;
+  
+}
+.contact a:visited {
+  color:white;
+}
+.contact a:hover {
+  color:aliceblue;
+}
+

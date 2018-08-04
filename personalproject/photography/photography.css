@@ -1,0 +1,76 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+/*navbar*/
+nav {
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+
+    
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  background: #1f2232;
+  color:white;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+img {
+  width:25%;
+}
+
+.gallery {
+  justify-content: space-around;
+}
+
+
+img {
+  padding: 4%;
+}
+
+/*footer contact bar*/
+.contact {
+  color:white;
+  background: #596475;
+  }
+.contact a:link {
+  color:white;
+  
+}
+.contact a:visited {
+  color:white;
+}
+.contact a:hover {
+  color:aliceblue;
+}
+
+
+
+/*responsive code test
+
+@media only screen and (min-width: 200px) {
+    .gallery {
+        display:block;
+        width:100%;
+        justify-content: none;
+    }
+} 
+*/

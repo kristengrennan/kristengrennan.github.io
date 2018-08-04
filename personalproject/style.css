@@ -1,0 +1,90 @@
+/*standard formatting*/
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+body {
+
+
+font-family: 'Slabo 27px', serif;
+  text-align: center;
+    font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+img {  
+  max-width:50%;
+  height:auto;
+}
+
+/*navbar*/
+nav {
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    padding: 2% 0%;
+    margin-bottom: 20px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+
+    
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/*formatting for different sections*/
+.intro {
+  color:white;
+  background: #1F2232;
+  padding: 30% 20%
+  }
+.photography {
+    background: #BC93C1;
+    padding-bottom:5%;
+    margin-bottom:20px;
+}
+.socialmedia {
+  color:white;
+  background: #596475;
+  padding-bottom: 5%;
+  padding-top: 5%;
+    margin-bottom: 20px;
+  
+}
+.writing {
+  color:black;
+  background: #E3BAC6;
+  text-align: left;
+  padding: 10% 30% 10% 10%;
+        margin-bottom: 20px;
+}
+.design {
+  text-align: right;
+    margin-bottom: 20px;
+  padding: 10% 10% 10% 30%
+}
+
+/*footer contact bar*/
+.contact {
+  color:white;
+  background: #596475;
+  }
+.contact a:link {
+  color:white;
+  
+}
+.contact a:visited {
+  color:white;
+}
+.contact a:hover {
+  color:aliceblue;
+}
+
